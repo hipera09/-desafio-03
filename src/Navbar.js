@@ -4,18 +4,17 @@ import { Button } from './Button';
 import './Navbar.css';
 import Img from './imagens/nav-logo.png'
 
-
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
+    const [button] = useState(true);
 
-    const handleClick = () => setClick(!click);
+   
     return (
         <>
             <nav className='navbar'>
                 <div className='navbar-cont'>
                     <Link to='/' className='navbar-logo'>
-                        <img src={Img} id='icon' />Picx
+                        <img src={Img}alt="ícone da pag" id='icon' />Picx
                     </Link>
                     <ul className='nav'>
                         <li className='nav-item'>
