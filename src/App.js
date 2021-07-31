@@ -37,21 +37,21 @@ function App() {
         <div className="card-container">
           <div className="card">
             <div className="card-text">
-              <img src={Img4} className='img-icon' />
+              <img src={Img4} alt="camera" className='img-icon' />
               <h2>As melhores fotos do mercado</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
             <div className="card-text">
-              <img src={Img5} className='img-icon' />
+              <img src={Img5} alt="dinheiro" className='img-icon' />
               <h2>Os melhores preços</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor in .
               </p>
             </div>
             <div className="card-text">
-              <img src={Img6} className='img-icon' />
+              <img src={Img6} alt="praia" className='img-icon' />
               <h2>Tenha fotos bem editadas e ambientadas</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -67,9 +67,9 @@ function App() {
           Trabalhos Recentes
         </h1>
         <div className="img-contain">
-          <img src={Img1} className='img' />
-          <img src={Img2} className='img' />
-          <img src={Img3} className='img' />
+          <img src={Img1} alt="paisagem" className='img' />
+          <img src={Img2} alt="paisagem" className='img' />
+          <img src={Img3} alt="paisagem" className='img' />
         </div>
       </div>
       <div className="final-back">
@@ -77,10 +77,10 @@ function App() {
           <img src={Img} id='icon-img' />Picx
         </div>
         <div className="social-cont">
-          <a href="https://web.facebook.com/"><button className="bttn"><img src={Img7} className='social-img' /></button></a>
-          <a href="https://twitter.com/"><button className="bttn"><img src={Img8} className='social-img' /></button></a>
-          <a href="https://www.instagram.com/"><button className="bttn"><img src={Img9} className='social-img' /></button></a>
-          <a href="https://www.youtube.com/"><button className="bttn"><img src={Img10} className='social-img' /></button></a>
+          <a href="https://web.facebook.com/"><button className="bttn"><img src={Img7} alt="Facebook logo" className='social-img' /></button></a>
+          <a href="https://twitter.com/"><button className="bttn"><img src={Img8} alt="twitter logo" className='social-img' /></button></a>
+          <a href="https://www.instagram.com/"><button className="bttn"><img src={Img9} alt="Instagram logo" className='social-img' /></button></a>
+          <a href="https://www.youtube.com/"><button className="bttn"><img src={Img10} alt="YouTube logo" className='social-img' /></button></a>
 
         </div>
         <p className="cop">
