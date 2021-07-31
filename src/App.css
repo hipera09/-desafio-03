@@ -1,20 +1,9 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  font-family: Poppins;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +13,146 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  height: 600px;
+  background-color: whitesmoke;
+  padding: 3rem 10rem;
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.contain {
+  height: 600px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.cop {
+  color: white;
+  margin-left: 1100px;
+  margin-top: 160px;
+}
+
+h2 {
+  font: size 1em;
+}
+
+.recentes-title {
+  color: black;
+  margin: 20px 0;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.why-title {
+  color: black;
+  margin: 20px 0;
+  font-size: 2.2rem;
+  text-align: left;
+}
+
+.final-back {
+  height: 220px;
+  background-color: #060912;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.img {
+  max-width: 500px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  margin: 2em;
+  border-radius: 0.5em;
+}
+
+.img-icon {
+  max-width: 100px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+
+}
+
+.img:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px gray;
+}
+
+.img-contain {
+  display: flex;
+  justify-content: center;
+}
+
+
+.meio {
+  height: 857px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  background-color: #425F7A;
+  align-items: center;
+  justify-content: center;
+  background-image: url(C:\Users\lucas\Desktop\lucasr.js\src\back.jpg);
+}
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.card-text {
+  width: 400px;
+  margin-top: 80px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#icon-img {
+  max-width: 200px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+}
+
+.social-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: right;
+  margin-left: 60px;
+}
+
+.social-img {
+  max-width: 80px;
+  max-height: 40px;
+  width: auto;
+  height: auto;
+  margin-top: 15px;
+  padding-left: 25px;
+}
+
+.icon {
+  color: white;
+  text-decoration: none;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3em;
+}
+
+.bttn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
 }
