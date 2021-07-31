@@ -99,7 +99,8 @@ h2 {
   background-color: #425F7A;
   align-items: center;
   justify-content: center;
-  background-image: url(C:\Users\lucas\Desktop\lucasr.js\src\back.jpg);
+  background-image: url('./back.png');
+  
 }
 
 
