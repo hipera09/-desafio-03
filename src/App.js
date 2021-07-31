@@ -74,7 +74,7 @@ function App() {
       </div>
       <div className="final-back">
         <div className="icon">
-          <img src={Img} id='icon-img' />Picx
+          <img src={Img} alt="página logo" id='icon-img' />Picx
         </div>
         <div className="social-cont">
           <a href="https://web.facebook.com/"><button className="bttn"><img src={Img7} alt="Facebook logo" className='social-img' /></button></a>
